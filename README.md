@@ -18,28 +18,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-  Vaction Destination Checklist
+Vaction Destination Checklist
+
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+An attraction checklist app to prioritize the 'must see' attractions of your vacation destination.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+The Vacation Destination Checklist app is used to keep track of all the must see attractions for your next vacation.  Reasearch your trip before you leave typing in each attraction that you don't want to miss!  When you reach each attraction simply check it off the list.  This app offers a simple and convenient way to ensure you don't miss any of the sites your next vacation has to offer.
 
 ## Problem ##
-  > Describe the problem your product solves.
+Many vacationers miss out on sites and attractions on there vacations because they don't do enough research before they leave or they simply forget about some of them.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+The Vaction Destination Checklist app forces the consumer to research their trip ahead of time and create a simple checklist of all the sites/attractions they would like to visit.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+"Many people only get one or two vacations per year.  Make your vacation count by never missing out on a must-see attraction again!" Ryan Freude, CEO, Samy Industries
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+To get started, all you need to do is log into the app, do your vacation destination research and build your checklist. Simple!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+"The Vaction Destination Checklist is very easy to use.  I used to miss out on sites and attractions all the time and we be so disappointed when I got home. With this app I will never miss out on a destination again!" Samy, St. Louis
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+Never miss out on an attraction again.  Go to www.???.com and sign up today!
