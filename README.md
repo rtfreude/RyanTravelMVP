@@ -18,7 +18,7 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-Vaction Destination Checklist
+Vacation Destination Checklist
 
 ## Sub-Heading ##
 An attraction checklist app to prioritize the 'must see' attractions of your vacation destination.
