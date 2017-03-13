@@ -1,0 +1,22 @@
+{
+  "name": "ryantravelmvp",
+  "version": "1.0.0",
+  "description": "Simple Travel Checklist App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtfreude/RyanTravelMVP.git"
+  },
+  "author": "Ryan Freude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtfreude/RyanTravelMVP/issues"
+  },
+  "homepage": "https://github.com/rtfreude/RyanTravelMVP#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
