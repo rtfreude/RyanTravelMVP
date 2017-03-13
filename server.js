@@ -14,8 +14,12 @@ var port = 3000;
 var router = express.Router();
 
 //do a simple get request to make sure this is wroking
-router.get('/', function(req, res) {
-    res.json({ message: 'My travel app server seems to be up and running' });
+router.get('/checklist', function(req, res) {
+    res.json({ message: 'This is get request response' });
+});
+
+router.post('/checklist', function(req, res) {
+    res.json({ message: 'This is a post request response' });
 });
 
 //prefix routes with travel
