@@ -39,7 +39,7 @@ The Vaction Destination Checklist app forces the consumer to research their trip
 To get started, all you need to do is log into the app, do your vacation destination research and build your checklist. Simple!
 
 ## Customer Quote ##
-"The Vaction Destination Checklist is very easy to use.  I used to miss out on sites and attractions all the time and we be so disappointed when I got home. With this app I will never miss out on a destination again!" Samy, St. Louis
+"The Vaction Destination Checklist is very easy to use.  I used to miss out on sites and attractions all the time and we be so disappointed when I got home. With this app I will never miss out on a destination again!" Ted, St. Louis
 
 ## Closing and Call to Action ##
 Never miss out on an attraction again.  Go to www.???.com and sign up today!

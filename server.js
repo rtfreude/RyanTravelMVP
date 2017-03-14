@@ -1,4 +1,6 @@
+'use strict';
 var express = require('express');
+var path = require('path');
 var app = express();
 var bodyParser = require('body-parser');
 
@@ -6,14 +8,14 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-//may have to change this port later
-var port = 3000;
+//
+var port = process.env.PORT || 3000;
+// serving static files
 
 //get an instance of our express router...we won't have many routes..maybe two
 //
 var router = express.Router();
 
-//do a simple get request to make sure this is wroking
 router.get('/checklist', function(req, res) {
     res.json({ message: 'This is get request response' });
 });
@@ -22,11 +24,13 @@ router.post('/checklist', function(req, res) {
     res.json({ message: 'This is a post request response' });
 });
 
-//prefix routes with travel
-app.use('/travel', router);
+app.use('/', router);
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.listen(port);
 console.log("Port " + port + " is currently active and listening to Ryan's commands!")
+
 
 
