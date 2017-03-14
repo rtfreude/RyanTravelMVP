@@ -1,8 +1,10 @@
 "use strict";
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-
+var $ = require('jQuery');
+var bodyParser = require('body-parser');
+//var mongoose    =   require("mongoose");
+//var Site = mongoose.model('Site',siteSchema);
 
 var SiteList = React.createClass({
 
@@ -17,8 +19,27 @@ var SiteList = React.createClass({
   },
   //add a site to the list
   addSite: function(preD) {
-    //create a temp sites array until database is set up
-    var sitesArray = this.state.sites;
+  //   //create a temp sites array until database is set up
+  var sitesArray = this.state.sites;
+  var userInput = this.inputSite.value
+
+  // console.log(userInput)
+  //   $.ajax({
+  //     url: "http://localhost:3000/posttest",
+  //     type: "post",
+  //     data: "userInput",
+  //     dataType: 'xml',
+
+  //     success: function (data) {
+  //       alert("success");
+  //       //$.parseJSON(data);
+
+  //     },
+
+  //     error: function (err) {
+  //      alert("error: ", err);
+  //     }
+  // });
 
     //if (this.inputSite.value !== "") {
       sitesArray.push(
@@ -26,7 +47,7 @@ var SiteList = React.createClass({
           text: this.inputSite.value,
         }
       );
-    //}
+    //},
 
     this.setState({
       sites: sitesArray

@@ -11,6 +11,8 @@ db.once('open', function() {
 });
 
 
+//var mongoSchema = mongoose.Schema;
+//basic test
 var siteSchema = mongoose.Schema({
   mySite: 'string'
 })
@@ -22,3 +24,5 @@ Site.create({ mySite: 'The Beach' }, function (err, el) {
   if (err) return handleError(err);
   if (el) {console.log("Element saved!")}
 })
+
+module.exports = Site('Site', siteSchema)

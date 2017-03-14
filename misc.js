@@ -50,11 +50,11 @@ var router = express.Router();
 
 
 //do a simple get request to make sure this is wroking
-router.get('/checklist', function(req, res) {
+router.get('/', function(req, res) {
     res.json({ message: 'This is get request response' });
 });
 
-router.post('/checklist', function(req, res) {
+router.post('/', function(req, res) {
     res.json({ message: 'This is a post request response' });
 });
 
