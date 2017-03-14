@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 var $ = require('jQuery');
 var bodyParser = require('body-parser');
-//var mongoose    =   require("mongoose");
+//var db = require(db)
 //var Site = mongoose.model('Site',siteSchema);
 
 var SiteList = React.createClass({
@@ -23,23 +23,23 @@ var SiteList = React.createClass({
   var sitesArray = this.state.sites;
   var userInput = this.inputSite.value
 
-  // console.log(userInput)
-  //   $.ajax({
-  //     url: "http://localhost:3000/posttest",
-  //     type: "post",
-  //     data: "userInput",
-  //     dataType: 'xml',
+  console.log(userInput)
+    $.ajax({
+      url: "/travel/testpost",
+      type: "post",
+      data: JSON.stringify(userInput),
+      contentType: 'application/json',
 
-  //     success: function (data) {
-  //       alert("success");
-  //       //$.parseJSON(data);
+      success: function (userInput) {
+        console.log("data33: ", userInput)
+        //$.parseJSON(data);
 
-  //     },
+      },
 
-  //     error: function (err) {
-  //      alert("error: ", err);
-  //     }
-  // });
+      error: function (err) {
+       console.log('error39: ', err)
+      }
+  });
 
     //if (this.inputSite.value !== "") {
       sitesArray.push(
