@@ -10,6 +10,9 @@ var SiteList = React.createClass({
 
   getInitialState: function() {
     //create a temporary storage array to hold sites until I get the db rolling
+
+
+
     return {
       //Name: "", //not sure if I want to add this or not
      // Destination: "", //not sure if I want to add this or not
